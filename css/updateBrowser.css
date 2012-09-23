@@ -2,6 +2,7 @@ div#updateBrowser {
   width: 536px;
   height: 719px;
   padding: 18px;
+  margin: auto;
 }
 
 div#updateBrowser div{
