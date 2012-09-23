@@ -29,6 +29,13 @@ div#updateBrowser .orText {
   padding: 8px;
 }
 
+div#updateBrowser div.browserBlock {
+  display: inline-block;
+  width: 115px;
+  padding: 6px;
+  border: thin #D1D2D4 solid;
+}
+
 div#updateBrowserWarning {
   height: 307px;
 }
