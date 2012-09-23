@@ -55,3 +55,12 @@ div#updateBrowserChooser div {
 .faintText {
   color: #BBB;
 }
+
+div#updateBrowserMask {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: auto;
+  height: auto;
+  background-color: rgba(0,0,0,.5);
+}
