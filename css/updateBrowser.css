@@ -1,12 +1,12 @@
 div#updateBrowser {
   width: 536px;
   height: 719px;
-  padding: 18px;
   margin: auto;
   background-color: #FAFBFB;
   border-radius: 4px 4px;
   box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.5);
   z-index: 125;
+  position: relative;
 }
 
 div#updateBrowser div{
@@ -34,24 +34,36 @@ div#updateBrowser .orText {
 
 div#updateBrowser div.browserBlock {
   display: inline-block;
-  width: 115px;
+  width: 110px;
   padding: 6px;
+  margin: 3px;
   border: thin #D1D2D4 solid;
+}
+div#updateBrowser div.browserBlock p {
+  font-size: 0.6em;
 }
 
 div#updateBrowserWarning {
   height: 307px;
+  padding: 18px;
 }
 
 div#updateBrowserChooser {
   background-color: #ECECEC;
   height: 412px;
+  padding: 18px;
 }
 
 div#updateBrowserChooser,
 div#updateBrowserChooser div {
   border-top-left-radius: 4px 4px;
   border-top-right-radius: 4px 4px;
+}
+
+div#updateBrowserWarning,
+div#updateBrowserWarning div {
+  border-bottom-left-radius: 4px 4px;
+  border-bottom-right-radius: 4px 4px;
 }
 
 .faintText {
