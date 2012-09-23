@@ -3,10 +3,11 @@ div#updateBrowser {
   height: 719px;
   padding: 18px;
   margin: auto;
+  background-color: #FAFBFB;
+  border-radius: 4px 4px;
 }
 
 div#updateBrowser div{
-  background-color: #FAFBFB;
 }
 
 div#updateBrowser p {
