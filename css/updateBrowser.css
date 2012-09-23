@@ -1,0 +1,48 @@
+div#updateBrowser {
+  width: 536px;
+  height: 719px;
+  padding: 18px;
+}
+
+div#updateBrowser div{
+  background-color: #FAFBFB;
+}
+
+div#updateBrowser p {
+  color: #797979;
+}
+
+div#updateBrowser input,
+div#updateBrowser .orText,
+div#updateBrowser h1,
+div#updateBrowser h2 {
+  color: #333;
+  font-weight: bolder;
+}
+
+div#updateBrowser h1 {
+  padding: 18px;
+}
+
+div#updateBrowser .orText {
+  padding: 8px;
+}
+
+div#updateBrowserWarning {
+  height: 307px;
+}
+
+div#updateBrowserChooser {
+  background-color: #ECECEC;
+  height: 412px;
+}
+
+div#updateBrowserChooser,
+div#updateBrowserChooser div {
+  border-top-left-radius: 4px 4px;
+  border-top-right-radius: 4px 4px;
+}
+
+.faintText {
+  color: #BBB;
+}
