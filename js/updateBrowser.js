@@ -20,7 +20,7 @@
       //we have an unidentified browser
     }
     
-    if (versionOk || !cookieValue){
+    if (!versionOk && !cookieValue){
       $('#updateBrowser.hiddenOnLoad, #updateBrowserMask.hiddenOnLoad').removeClass('hiddenOnLoad');
       $(document).on('click','#closeUpdateBrowser',function (evt){
         var checked = $('#hideUpdateBrowser').attr('checked');
