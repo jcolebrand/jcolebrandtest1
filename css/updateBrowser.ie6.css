@@ -1,3 +1,8 @@
+/*
+There is some issue with IE6 and having a wider right margin than anticipated.
+I imagine with a bit more time I would figure it out, but in lieu of taking a long time to figure that out I just moved on.
+*/
+
 div#updateBrowserChooser div.browserBlock {
   margin-right: 4px;
 }

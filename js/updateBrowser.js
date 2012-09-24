@@ -13,7 +13,7 @@
         versionOk = true;
       }
     } else {
-      $('#updateBrowserSupportedText').toggle();
+      $('#updateBrowserSupportedText').hide();
       badBrowser = true;
       //we have an unidentified browser
     }
