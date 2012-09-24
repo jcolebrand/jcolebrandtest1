@@ -48,7 +48,7 @@ div#updateBrowser .orText {
   top: -9px;
   left: 260px;
   background-color: #FBFBFB;
-  border: thin solid #D1D2D4;
+  border: thin solid #CCC;
   border-radius: 4px 4px;
   font-weight: bold;
   font-size: 8pt;
@@ -56,7 +56,7 @@ div#updateBrowser .orText {
   color: #666;
 }
 
-div#updateBrowser div.browserBlock {
+div#updateBrowserChooser div.browserBlock {
   display: inline-block;
   width: 115px;
   padding: 0px;
@@ -96,7 +96,7 @@ div#updateBrowser div.browserBlock > img {
   bottom: 0px;
 }
 
-div#updateBrowser div.browserBlock div img {
+div#updateBrowserChooser div.browserBlock div img {
   position: relative;
   top: -15px;
   margin-bottom: -10px;
@@ -126,17 +126,60 @@ div#updateBrowserChooser div {
 
 div#updateBrowserChooser > div {
     margin-top: 36px;
-  
     position: relative;
 }
 
 div#updateBrowserWarning,
-div#updateBrowserWarning div {
+div#updateBrowserWarning > div {
   border-bottom-left-radius: 4px 4px;
   border-bottom-right-radius: 4px 4px;
 }
+
 div#updateBrowserWarning > div {
   padding-top: 20px;
+  width: 566px;
+}
+
+
+div#updateBrowserWarning div.browserBlock {
+  display: inline-block;
+  width: 150px;
+  padding: 0px;
+  border: thin #CDCDCD solid;
+  margin-right: 20px;
+  border-radius: 4px 4px;
+  height: 125px;
+}
+
+div#updateBrowserWarning div.browserBlock div img {
+  position: relative;
+  top: -15px;
+  margin-bottom: -10px;
+  background-repeat: none;
+}
+
+div#updateBrowserWarning div.browserBlock div img.spriteOne {
+  width:27px;
+  height:27px;
+  background:url(img/warning-sprite.png) 0 0;
+}
+div#updateBrowserWarning div.browserBlock div img.spriteTwo {
+  width:35px;
+  height:27px;
+  background:url(img/warning-sprite.png) -27 0;
+}
+div#updateBrowserWarning div.browserBlock div img.spriteThree {
+  width:40px;
+  height:27px;
+  background:url(img/warning-sprite.png) -52 0;
+}
+
+div#updateBrowserWarning div.browserBlock p {
+  font-size: 8pt;
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 8px;
+  padding-top: 4px;
 }
 
 div#updateBrowserWarning h1{
