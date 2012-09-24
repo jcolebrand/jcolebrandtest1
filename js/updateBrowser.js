@@ -1,6 +1,5 @@
 (function($,currentBrowser){
-  console.log(currentBrowser);
-  $.get('fakeapi/browsers.js',function(browsers){
+  $.getJSON('fakeapi/browsers.js',function(browsers){
     var cookieValue = $.cookie('updateBrowser'),
         versionOk = false,
         browser = browsers[currentBrowser.name];
