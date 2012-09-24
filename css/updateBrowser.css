@@ -161,17 +161,17 @@ div#updateBrowserWarning div.browserBlock div img {
 div#updateBrowserWarning div.browserBlock div img.spriteOne {
   width:27px;
   height:27px;
-  background:url(img/warning-sprite.png) 0 0;
+  background:url(../img/warning-sprite.png) 0 0;
 }
 div#updateBrowserWarning div.browserBlock div img.spriteTwo {
   width:35px;
   height:27px;
-  background:url(img/warning-sprite.png) -27 0;
+  background:url(../img/warning-sprite.png) -27 0;
 }
 div#updateBrowserWarning div.browserBlock div img.spriteThree {
   width:40px;
   height:27px;
-  background:url(img/warning-sprite.png) -52 0;
+  background:url(../img/warning-sprite.png) -52 0;
 }
 
 div#updateBrowserWarning div.browserBlock p {
