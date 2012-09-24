@@ -156,6 +156,7 @@ div#updateBrowserWarning div.browserBlock div img {
   top: -15px;
   margin-bottom: -10px;
   background-repeat: none;
+  border: none;
 }
 
 div#updateBrowserWarning div.browserBlock div img.spriteOne {
@@ -166,12 +167,12 @@ div#updateBrowserWarning div.browserBlock div img.spriteOne {
 div#updateBrowserWarning div.browserBlock div img.spriteTwo {
   width:35px;
   height:27px;
-  background:url(../img/warning-sprite.png) -27 0;
+  background:url(../img/warning-sprite.png) -30px 0;
 }
 div#updateBrowserWarning div.browserBlock div img.spriteThree {
   width:40px;
   height:27px;
-  background:url(../img/warning-sprite.png) -52 0;
+  background:url(../img/warning-sprite.png) -60px 0;
 }
 
 div#updateBrowserWarning div.browserBlock p {
