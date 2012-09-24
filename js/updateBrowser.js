@@ -3,8 +3,12 @@
     var cookieValue = $.cookie('updateBrowser'),
         versionOk = false,
         browser = browsers[currentBrowser.name];
-    console.log(browser);
-    if (browsers[currentBrowser.name]){
+        
+    console.log(browser.display);
+    console.log(browser.minVersion);
+    console.log(currentBrowser.versionNumber);
+    
+    if (browser){
       //we have an actual browser to work with
       $('.updateBrowser'+currentBrowser.name+' a img').attr('src','img/download-btn.png');
       $('#currentBrowserName').text(browser.display);
