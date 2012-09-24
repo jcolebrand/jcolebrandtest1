@@ -43,6 +43,12 @@ div#updateBrowserChooser {
   border-bottom: thin solid #D1D2D4;
 }
 
+div#updateBrowserChooser,
+div#updateBrowserChooser div {
+  border-top-left-radius: 4px 4px;
+  border-top-right-radius: 4px 4px;
+  behavior: url(css3pie/PIE.htc);
+}
 
 div#updateBrowserChooser > div {
     margin-top: 36px;
@@ -207,16 +213,20 @@ div#updateBrowser label#hideUpdateBrowserLabel {
   padding-right: 2px;
 }
 
-div#updateBrowser input#closeUpdateBrowser {
+div#updateBrowser span#closeUpdateBrowser {
   font-size: 8pt;
   color: #555555;
   font-weight: bold;
   background-color: #C4BDB6;
   float: right;
+  padding: 3px 9px;
+  border-radius: 4px 4px;
+  border: thin solid #BBB2A4;
+  behavior: url(css3pie/PIE.htc);
 }
 
 div#updateBrowserMask {
-  position: fixed;
+  position: absolute;
   left: 0;
   top: 0;
   width: 100%;
@@ -225,5 +235,4 @@ div#updateBrowserMask {
   opacity: 0.5;
   filter: alpha(opacity=50);
   z-index: 100;
-  behavior: url(css3pie/PIE.htc);
 }
