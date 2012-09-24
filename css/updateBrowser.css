@@ -261,3 +261,7 @@ div#updateBrowserMask {
   filter: alpha(opacity=50);
   z-index: 100;
 }
+
+.hiddenOnLoad{
+  display: none;
+}

@@ -26,43 +26,51 @@
         <p>Hello world! This is HTML5 Boilerplate.</p>
         
         </div>
-        <div id="updateBrowser">
+        <div id="updateBrowser" class="hiddenOnLoad">
           <div id="updateBrowserChooser">
             <h1>Please update your browser.</h1>
             <p>Our online banking site uses the latest technology and security standards supported by modern browsers. In order to provide a better and more secure online banking experience to our users, we do not support the browser you are using. We apologize for the inconvenience.</p>
-            <p>You may update to a newer version of <strong id="currentBrowserName">Internet Explorer</strong> or download one of the supported browsers using the links below. You will be on your way to a better, faster and safer online browsing experience in no time!</p>
+            <p>You may <span id="updateBrowserSupportedText">update to a newer version of <strong id="currentBrowserName">Internet Explorer</strong> or </span>download one of the supported browsers using the links below. You will be on your way to a better, faster and safer online browsing experience in no time!</p>
             <div>
-              <div class="browserBlock">
+              <div class="browserBlock updateBrowsermsie">
                 <div>
                   <img src="img/ie.png" />
                   <h5>Internet Explorer</h5>
                   <p>version 8 or above</p>
                 </div>
-                <img src="img/update-btn.png" />
+                <a href="http://windows.microsoft.com/en-US/internet-explorer/downloads/ie" target="_blank">
+                  <img src="img/download-btn.png" />
+                </a>
               </div>
-              <div class="browserBlock">
+              <div class="browserBlock updateBrowserfirefox">
                 <div>
                   <img src="img/ff.png" />
                   <h5>Firefox</h5>
                   <p>version 6 or above</p>
                 </div>
-                <img src="img/download-btn.png" />
+                <a href="http://www.mozilla.org/en-US/firefox/new/" target="_blank">
+                  <img src="img/download-btn.png" />
+                </a>
               </div>
-              <div class="browserBlock">
+              <div class="browserBlock updateBrowserchrome">
                 <div>
                   <img src="img/chrome.png" />
                   <h5>Google Chrome</h5>
                   <p>version 17 or above</p>
                 </div>
-                <img src="img/download-btn.png" />
+                <a href="https://www.google.com/chrome" target="_blank">
+                  <img src="img/download-btn.png" />
+                </a>
               </div>
-              <div class="browserBlock">
+              <div class="browserBlock updateBrowsersafari">
                 <div>
                   <img src="img/safari.png" />
                   <h5>Safari</h5>
                   <p>version 5 or above</p>
                 </div>
-                <img src="img/download-btn.png" />
+                <a href="http://www.apple.com/safari/download/" target="_blank">
+                  <img src="img/download-btn.png" />
+                </a>
               </div>
             </div>
             <p class="faintText">If you are using a supported browser, you may be using an extension that interferes with browser detection. Try disabling your browser extensions and restarting your browser to resolve the problem.</p>
@@ -100,7 +108,7 @@
             <input type="checkbox" checked="checked" id="hideUpdateBrowser" /><label id="hideUpdateBrowserLabel" for="hideUpdateBrowser">Do not warn me again</label>
           </div>
         </div>
-        <div id="updateBrowserMask">
+        <div id="updateBrowserMask" class="hiddenOnLoad">
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.1.min.js"><\/script>')</script>
