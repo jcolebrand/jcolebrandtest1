@@ -9,6 +9,7 @@ div#updateBrowser {
   position: relative;
   font-size: 9pt;
   font-family: Arial;
+  behavior: url(css3pie/PIE.htc);
 }
 
 div#updateBrowser h1,
