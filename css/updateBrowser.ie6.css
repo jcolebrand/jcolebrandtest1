@@ -4,6 +4,10 @@ div#updateBrowser {
   width: 536px;
 }
 
+div#updateBrowserChooser > div {
+  margin-top: 16px;
+}
+
 div#updateBrowserChooser div.browserBlock {
   margin-right: 4px;
 }
