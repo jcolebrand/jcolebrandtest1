@@ -12,6 +12,10 @@ div#updateBrowserWarning div.browserBlock {
   margin-right: 15px;
 }
 
+div#updateBrowserWarning {
+  height: 307px;
+}
+
 div#updateBrowserWarning > div {
   width: 560px;
 }
