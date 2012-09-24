@@ -132,7 +132,6 @@ div#updateBrowserWarning > div {
   behavior: url(css3pie/PIE.htc);
 }
 
-.clearfloat,
 div#updateBrowserChooser > div:after,
 div#updateBrowserWarning > div:after {
   content: ".";
@@ -140,7 +139,6 @@ div#updateBrowserWarning > div:after {
   height: 0px;
   clear: both;
   visibility: hidden;
-  margin: 0px;
 }
 
 div#updateBrowserWarning > div {
