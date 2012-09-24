@@ -137,9 +137,10 @@ div#updateBrowserChooser > div:after,
 div#updateBrowserWarning > div:after {
   content: ".";
   display: block;
-  height: 0;
+  height: 0px;
   clear: both;
   visibility: hidden;
+  margin: 0px;
 }
 
 div#updateBrowserWarning > div {
