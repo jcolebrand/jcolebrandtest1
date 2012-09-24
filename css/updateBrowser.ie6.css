@@ -1,27 +1,9 @@
-body {border: 0;}
-
-div#updateBrowser {
-  width: 525px;
-}
-
-div#updateBrowserChooser > div {
-  padding-top: 36px;
-}
-
 div#updateBrowserChooser div.browserBlock {
   margin-right: 4px;
 }
 
 div#updateBrowserWarning div.browserBlock {
   margin-right: 15px;
-}
-
-div#updateBrowserWarning {
-  height: 237px;
-}
-
-div#updateBrowserWarning > div {
-  width: 525px;
 }
 
 div#updateBrowserMask {
