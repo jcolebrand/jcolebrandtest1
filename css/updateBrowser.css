@@ -233,6 +233,7 @@ div#updateBrowserWarning span#closeUpdateBrowser {
   float: right;
   padding: 3px 9px;
   border: thin solid #BBB2A4;
+  border-radius: 4px 4px;
   -moz-border-radius: 4px 4px;
   behavior: url(css3pie/PIE.htc);
 }
