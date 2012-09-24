@@ -132,6 +132,10 @@ div#updateBrowserWarning > div {
   behavior: url(css3pie/PIE.htc);
 }
 
+div#updateBrowserWarning > div {
+  height: 307px;
+}
+
 div#updateBrowserChooser > div:after,
 div#updateBrowserWarning > div:after {
   content: ".";
