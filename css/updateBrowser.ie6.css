@@ -1,5 +1,9 @@
 body {border: 0;}
 
+div#updateBrowser {
+  width: 530px;
+}
+
 div#updateBrowserChooser div.browserBlock {
   margin-right: 4px;
 }
@@ -8,6 +12,9 @@ div#updateBrowserWarning div.browserBlock {
   margin-right: 15px;
 }
 
+div#updateBrowserWarning > div {
+  width: 560px;
+}
 
 div#updateBrowserMask {
   position: absolute;
