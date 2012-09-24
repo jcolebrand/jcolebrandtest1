@@ -38,11 +38,22 @@ div#updateBrowser h1{
 }
 
 div#updateBrowser h1 {
-  padding: 18px;
+  padding-bottom: 18px;
 }
 
 div#updateBrowser .orText {
-  padding: 8px;
+  padding: 2px 5px;
+  display: inline-block;
+  position: relative;
+  top: -9px;
+  left: 260px;
+  background-color: #FBFBFB;
+  border: thin solid #D1D2D4;
+  border-radius: 4px 4px;
+  font-weight: bold;
+  font-size: 8pt;
+  width: 16px;
+  color: #666;
 }
 
 div#updateBrowser div.browserBlock {
@@ -51,8 +62,26 @@ div#updateBrowser div.browserBlock {
   padding: 0px;
   margin-right: 5px;
   border: thin #D1D2D4 solid;
-  height: 60px;
+  height: 68px;
   margin-bottom: 25px;
+  
+  /* fallback */
+  background-color: #FFFFFF;
+  
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFFFFF), to(#F7F8F9));
+  
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-linear-gradient(top, #F7F8F9, #FFFFFF);
+  
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(top, #F7F8F9, #FFFFFF);
+  
+  /* IE 10 */
+  background: -ms-linear-gradient(top, #F7F8F9, #FFFFFF);
+  
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(top, #F7F8F9, #FFFFFF);
 }
 
 div#updateBrowser div.browserBlock * {
@@ -75,6 +104,7 @@ div#updateBrowser div.browserBlock div img {
 
 div#updateBrowser div.browserBlock p {
   font-size: 0.8em;
+  margin-bottom: 8px;
 }
 
 div#updateBrowserWarning {
@@ -84,8 +114,8 @@ div#updateBrowserWarning {
 
 div#updateBrowserChooser {
   background-color: #ECECEC;
-  height: 412px;
   padding: 18px;
+  border-bottom: thin solid #D1D2D4;
 }
 
 div#updateBrowserChooser,
@@ -104,6 +134,17 @@ div#updateBrowserWarning,
 div#updateBrowserWarning div {
   border-bottom-left-radius: 4px 4px;
   border-bottom-right-radius: 4px 4px;
+}
+div#updateBrowserWarning > div {
+  padding-top: 20px;
+}
+
+div#updateBrowserWarning h1{
+  color: #888988;
+  font-size: 11pt;
+  font-weight: bold;
+  padding: 11px;
+  margin-top: -16px;
 }
 
 div#updateBrowser .faintText {
