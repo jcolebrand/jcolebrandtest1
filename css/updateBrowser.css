@@ -40,7 +40,6 @@ div#updateBrowser h1 {
 div#updateBrowserChooser {
   background-color: #ECECEC;
   padding: 18px;
-  border-bottom: thin solid #D1D2D4;
 }
 
 div#updateBrowserChooser,
@@ -125,6 +124,7 @@ div#updateBrowser .orText {
 div#updateBrowserWarning {
   height: 307px;
   padding: 18px;
+  border-top: thin solid #D1D2D4;
 }
 
 div#updateBrowserWarning,
@@ -210,7 +210,7 @@ div#updateBrowser input#hideUpdateBrowser,
 div#updateBrowser label#hideUpdateBrowserLabel {
   font-size: 9pt;
   color: #787979;
-  padding-right: 2px;
+  margin-right: 3px;
 }
 
 div#updateBrowser span#closeUpdateBrowser {
