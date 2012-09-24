@@ -132,10 +132,6 @@ div#updateBrowserWarning > div {
   behavior: url(css3pie/PIE.htc);
 }
 
-div#updateBrowserWarning > div {
-  height: 307px;
-}
-
 div#updateBrowserChooser > div:after,
 div#updateBrowserWarning > div:after {
   content: ".";
@@ -208,14 +204,14 @@ div#updateBrowser .faintText {
   font-size: 8pt;
 }
 
-div#updateBrowser input#hideUpdateBrowser,
-div#updateBrowser label#hideUpdateBrowserLabel {
+div#updateBrowserWarning input#hideUpdateBrowser,
+div#updateBrowserWarning label#hideUpdateBrowserLabel {
   font-size: 9pt;
   color: #787979;
   margin-right: 3px;
 }
 
-div#updateBrowser span#closeUpdateBrowser {
+div#updateBrowserWarning span#closeUpdateBrowser {
   font-size: 8pt;
   color: #555555;
   font-weight: bold;
