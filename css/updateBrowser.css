@@ -9,7 +9,7 @@ div#updateBrowser {
   position: relative;
   font-size: 9pt;
   font-family: Arial;
-  behavior: url(css3pie/PIE.htc);
+  /*behavior: url(css3pie/PIE.htc);*/
 }
 
 div#updateBrowser h1,
@@ -50,7 +50,7 @@ div#updateBrowserChooser,
 div#updateBrowserChooser div {
   border-top-left-radius: 4px 4px;
   border-top-right-radius: 4px 4px;
-  behavior: url(css3pie/PIE.htc);
+  /*behavior: url(css3pie/PIE.htc);*/
 }
 
 div#updateBrowserChooser > div {
@@ -122,7 +122,7 @@ div#updateBrowser .orText {
   font-size: 8pt;
   width: 16px;
   color: #666;
-  behavior: url(css3pie/PIE.htc);
+  /*behavior: url(css3pie/PIE.htc);*/
 }
 
 div#updateBrowserWarning {
@@ -134,7 +134,7 @@ div#updateBrowserWarning,
 div#updateBrowserWarning > div {
   border-bottom-left-radius: 4px 4px;
   border-bottom-right-radius: 4px 4px;
-  behavior: url(css3pie/PIE.htc);
+  /*behavior: url(css3pie/PIE.htc);*/
 }
 
 div#updateBrowserChooser > div:after,
@@ -160,7 +160,7 @@ div#updateBrowserWarning div.browserBlock {
   border: thin #CDCDCD solid;
   margin-right: 20px;
   border-radius: 4px 4px;
-  behavior: url(css3pie/PIE.htc);
+  /*behavior: url(css3pie/PIE.htc);*/
   height: 125px;
 }
 
@@ -228,9 +228,9 @@ div#updateBrowserMask {
   position: fixed;
   left: 0;
   top: 0;
-  width: 1024;
-  height: 700;
+  width: 1024px;
+  height: 700px;
   background-color: rgba(0,0,0,.5);
   z-index: 100;
-  behavior: url(css3pie/PIE.htc);
+  /*behavior: url(css3pie/PIE.htc);*/
 }
