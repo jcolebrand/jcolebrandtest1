@@ -1,11 +1,11 @@
 body {border: 0;}
 
 div#updateBrowser {
-  width: 520px;
+  width: 526px;
 }
 
 div#updateBrowserChooser > div {
-  margin-top: 0px;
+  margin-top: 40px;
 }
 
 div#updateBrowserChooser div.browserBlock {
@@ -22,7 +22,7 @@ div#updateBrowserWarning {
 }
 
 div#updateBrowserWarning > div {
-  width: 520px;
+  width: 526px;
 }
 
 div#updateBrowserMask {
