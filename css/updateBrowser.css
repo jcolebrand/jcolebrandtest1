@@ -49,8 +49,12 @@ div#updateBrowserChooser {
 }
 
 div#updateBrowserChooser > div {
-    margin-top: 16px;
+    margin-top: 36px;
     position: relative;
+}
+
+*+html #div#updateBrowserChooser > div {
+    margin-top: 16px;
 }
 
 div#updateBrowserChooser div.browserBlock {
