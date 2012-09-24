@@ -53,7 +53,7 @@ div#updateBrowserChooser > div {
     position: relative;
 }
 
-*+html #div#updateBrowserChooser > div {
+*+html div#updateBrowserChooser > div {
     margin-top: 16px;
 }
 
