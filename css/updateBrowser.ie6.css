@@ -1,0 +1,14 @@
+body {border: 0;}
+
+div#updateBrowserChooser div.browserBlock {
+  margin-right: 4px;
+}
+
+div#updateBrowserWarning div.browserBlock {
+  margin-right: 15px;
+}
+
+
+div#updateBrowserMask {
+  position: absolute;
+}
