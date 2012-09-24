@@ -40,26 +40,11 @@ div#updateBrowser h1 {
   padding-bottom: 18px;
 }
 
-div#updateBrowser .orText {
-  padding: 2px 5px;
-  display: inline-block;
-  position: relative;
-  top: -9px;
-  left: 260px;
-  background-color: #FBFBFB;
-  border: thin solid #CCC;
-  border-radius: 4px 4px;
-  font-weight: bold;
-  font-size: 8pt;
-  width: 16px;
-  color: #666;
-}
-
 div#updateBrowserChooser div.browserBlock {
   float: left;
   width: 115px;
   padding: 0px;
-  margin-right: 5px;
+  margin-right: 8px;
   border: thin #D1D2D4 solid;
   height: 68px;
   margin-bottom: 25px;
@@ -106,6 +91,22 @@ div#updateBrowser div.browserBlock p {
   margin-bottom: 8px;
 }
 
+div#updateBrowser .orText {
+  padding: 2px 5px;
+  display: inline-block;
+  position: relative;
+  top: -9px;
+  left: 260px;
+  background-color: #FBFBFB;
+  border: thin solid #CCC;
+  border-radius: 4px 4px;
+  font-weight: bold;
+  font-size: 8pt;
+  width: 16px;
+  color: #666;
+  behavior: url(css3pie/PIE.htc);
+}
+
 div#updateBrowserWarning {
   height: 307px;
   padding: 18px;
@@ -121,6 +122,7 @@ div#updateBrowserChooser,
 div#updateBrowserChooser div {
   border-top-left-radius: 4px 4px;
   border-top-right-radius: 4px 4px;
+  behavior: url(css3pie/PIE.htc);
 }
 
 div#updateBrowserChooser > div {
@@ -132,6 +134,16 @@ div#updateBrowserWarning,
 div#updateBrowserWarning > div {
   border-bottom-left-radius: 4px 4px;
   border-bottom-right-radius: 4px 4px;
+  behavior: url(css3pie/PIE.htc);
+}
+
+div#updateBrowserChooser > div:after,
+div#updateBrowserWarning > div:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
 }
 
 div#updateBrowserWarning > div {
@@ -147,6 +159,7 @@ div#updateBrowserWarning div.browserBlock {
   border: thin #CDCDCD solid;
   margin-right: 20px;
   border-radius: 4px 4px;
+  behavior: url(css3pie/PIE.htc);
   height: 125px;
 }
 
@@ -217,4 +230,5 @@ div#updateBrowserMask {
   height: 100%;
   background-color: rgba(0,0,0,.5);
   z-index: 100;
+  behavior: url(css3pie/PIE.htc);
 }
