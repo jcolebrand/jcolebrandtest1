@@ -8,4 +8,6 @@ div#updateBrowserWarning div.browserBlock {
 
 div#updateBrowserMask {
   position: absolute;
+  width: expression(document.compatMode=='CSS1Compat'? document.documentElement.clientWidth+'px' : body.clientWidth+'px');
+  height: expression(document.compatMode=='CSS1Compat'? document.documentElement.clientHeight+'px' : body.clientHeight+'px');
 }
