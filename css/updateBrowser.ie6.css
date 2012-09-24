@@ -13,7 +13,8 @@ div#updateBrowserWarning div.browserBlock {
 }
 
 div#updateBrowserWarning {
-  height: 267px;
+  overflow: hidden;
+  height: 237px;
 }
 
 div#updateBrowserWarning > div {
