@@ -41,9 +41,11 @@ div#updateBrowserChooser {
   background-color: #ECECEC;
   padding: 18px;
   border-bottom: thin solid #D1D2D4;
+  border-top-left-radius: 4px 4px;
+  border-top-right-radius: 4px 4px;
+  behavior: url(css3pie/PIE.htc);
 }
 
-div#updateBrowserChooser,
 div#updateBrowserChooser div {
   border-top-left-radius: 4px 4px;
   border-top-right-radius: 4px 4px;
