@@ -25,7 +25,6 @@ div#updateBrowser p {
 }
 
 div#updateBrowser input,
-div#updateBrowser .orText,
 div#updateBrowser h1,
 div#updateBrowser h5 {
   color: #333;
@@ -57,7 +56,7 @@ div#updateBrowser .orText {
 }
 
 div#updateBrowserChooser div.browserBlock {
-  display: inline-block;
+  float: left;
   width: 115px;
   padding: 0px;
   margin-right: 5px;
@@ -142,7 +141,7 @@ div#updateBrowserWarning > div {
 
 
 div#updateBrowserWarning div.browserBlock {
-  display: inline-block;
+  float: left;
   width: 150px;
   padding: 0px;
   border: thin #CDCDCD solid;
@@ -194,6 +193,20 @@ div#updateBrowserWarning h1{
 div#updateBrowser .faintText {
   color: #BBB;
   font-size: 8pt;
+}
+
+div#updateBrowser input#hideUpdateBrowser,
+div#updateBrowser label#hideUpdateBrowserLabel {
+  font-size: 9pt;
+  color: #787979;
+}
+
+div#updateBrowser input#closeUpdateBrowser {
+  font-size: 8pt;
+  color: #555555;
+  font-weight: bold;
+  background-color: #C4BDB6;
+  float: right;
 }
 
 div#updateBrowserMask {
